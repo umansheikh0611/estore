@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/universal.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>eStore - Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#" class="active">Contact Us</a></li>
+                    <li><a href="#">Promotions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="product-section">
+            <h2>Get in Touch with Us</h2>
+            <div class="products">
+                <!-- Contact Form -->
+                <div class="product-card">
+                    <h3>Contact Form</h3>
+                    <form action="submit_contact.php" method="POST">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea><br><br>
+
+                        <button class="buy-btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Details -->
+                <div class="product-card">
+                    <h3>Our Contact Details</h3>
+                    <p>Email: <a href="mailto:support@estore.com">support@estore.com</a></p>
+                    <p>Phone: +1 (800) 123-4567</p>
+                    <p>Address: 123 eStore Avenue, City, Country</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 eStore. All Rights Reserved.</p>
+            <p>Contact us at support@estore.com</p>
+        </div>
+    </footer>
+</body>
+</html>
