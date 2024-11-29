@@ -264,3 +264,54 @@ footer p {
   margin: 5px 0;
   font-size: 14px;
 }
+
+/* Contact Us Page Styles */
+.contact-us {
+  background: #fff;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.contact-us .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #00bbff;
+  outline: none;
+}
+
+.contact-form .submit-btn {
+  background-color: #00bbff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #0077cc;
+}
